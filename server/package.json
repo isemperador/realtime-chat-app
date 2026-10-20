@@ -1,0 +1,21 @@
+{
+  "name": "realtime-chat-server",
+  "version": "1.0.0",
+  "description": "Servidor Chat en Tiempo Real con Express y Socket.io - Semana 9",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["chat", "socket.io", "realtime", "express"],
+  "author": "Estudiante",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
